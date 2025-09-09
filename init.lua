@@ -166,6 +166,15 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- Expand tab input with spaces characters
+vim.o.expandtab = true
+-- Syntax aware indentations for newline inserts
+vim.o.smarttab = true
+-- Number of space characters per tab
+vim.o.tabstop = 2
+-- Spaces per indentation level
+vim.o.shiftwidth = 2
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
