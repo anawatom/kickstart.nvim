@@ -20,6 +20,10 @@ return {
         hide_dotfiles = false, -- Set to prevent hiding dotfiles
         hide_gitignored = false, -- Set to prevent hidding gitignore file
       },
+      follow_current_file = {
+        enabled = true,
+        leave_dirs_open = true, -- Keep parent directories
+      },
       window = {
         mappings = {
           ['\\'] = 'close_window',
