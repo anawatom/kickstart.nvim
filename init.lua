@@ -707,6 +707,7 @@ require('lazy').setup({
         --
         jsonls = {},
         yamlls = {},
+        angularls = {},
 
         lua_ls = {
           -- cmd = { ... },
